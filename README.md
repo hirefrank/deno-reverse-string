@@ -1,4 +1,7 @@
 # Next-gen Slack platform project template - Reverse String
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/hirefrank/deno-reverse-string)
+
 This repo contains a sample project and embedded lightweight SDK of a Typescript based project for the new Deno runtime. 
 
 The main file that brings it all together is the `project.ts` file.  So far `functions`, `workflows`, `triggers` and `tables` are supported and those should each be created in a file per, under each corresponding directory. `functions/reverse.ts` has a simple sample. After you create a new function or workflow make sure you add it to the `Project` object in `project.ts`. 
